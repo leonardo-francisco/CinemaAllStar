@@ -1,0 +1,298 @@
+﻿@page
+@model CinemaAllStarStream.Pages.Single_Movies_v2Model
+@{
+    ViewData["Title"] = "Single movies";
+}
+
+<main id="content">
+    <div class="bg-gray-1100 pb-5 pb-md-9">
+        <div class="container px-md-5 mb-1">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb dark font-size-1">
+                    <li class="breadcrumb-item"><a href="/Index" class="text-gray-1300">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/Single-Movies-v3" class="text-gray-1300">Adventures</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Renegades</li>
+                </ol>
+            </nav>
+            <div id="fancyboxGallery">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="position-relative min-h-270rem mb-2d mr-xl-3">
+                            <iframe class="position-absolute w-100 h-lg-down-100 position-xl-relative top-0 bottom-0 border-0" height="620" src="https://www.youtube.com/embed/Bl8INGEnrbQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="pl-md-5">
+                            <div class="row mx-n2d mb-5 mb-lg-7 pb-lg-1">
+                                <div class="col-2 px-2d mt-5 mt-md-3">
+                                    <img class="img-fluid" src=@Url.Content("~/assets/img/300x450/img6.jpg") alt="Image-Description">
+                                </div>
+                                <div class="col px-2d">
+                                    <div>
+                                        <div>
+                                            <h6 class="font-size-24 text-white font-weight-semi-bold font-secondary mb-1">Renegades</h6>
+                                            <ul class="list-unstyled nav nav-meta font-secondary mb-2">
+                                                <li class="text-white">2020</li>
+                                                <li class="text-white">1hr 46mins</li>
+                                                <li class="text-white">PG-</li>
+                                            </ul>
+                                            <div class="d-flex align-items-center text-gray-1300">
+                                                <div>
+                                                    <i class="far fa-eye font-size-18"></i>
+                                                    <span class="font-size-12 font-weight-semi-bold ml-1">8.3k views</span>
+                                                </div>
+                                                <div class="ml-6">
+                                                    <a href="#" class="text-gray-1300">
+                                                        <i class="far fa-thumbs-up font-size-18"></i>
+                                                    </a>
+                                                    <span class="font-size-12 font-weight-semi-bold ml-1">38+</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="d-flex">
+                                    <div>
+                                        <i class="fas fa-star text-primary font-size-42"></i>
+                                    </div>
+                                    <div class="text-lh-1 ml-1">
+                                        <div class="text-primary font-size-24 font-weight-semi-bold">8.0</div>
+                                        <span class="text-gray-1300 font-size-12">1 Vote</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center ml-5 text-gray-1300">
+                                    <div>
+                                        <i class="far fa-heart font-size-30"></i>
+                                    </div>
+                                    <a href="#" class="text-gray-1300 ml-2">+ Playlist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-3100 pt-5 pb-6">
+        <div class="container px-md-5">
+            <h6 class="text-white font-size-22 font-secondary font-weight-medium mb-4">You Also May Like</h6>
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-8 mx-n2 dark">
+                <div class="col-xl px-2">
+                    <div class="product mb-5 mb-xl-0">
+                        <div class="product-image mb-2">
+                            <a href="/Single-Movies-v3" class="d-inline-block position-relative stretched-link">
+                                <img class="img-fluid" src=@Url.Content("~/assets/img/300x450/img12.jpg") alt="Image Description">
+                            </a>
+                        </div>
+                        <div class="product-meta font-size-12 mb-1">
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">2020</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Action</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Fantacys</a></span>
+                        </div>
+                        <div class="product-title font-weight-bold font-size-1"><a href="/Single-Movies-v3">Journey's End</a></div>
+                    </div>
+                </div>
+                <div class="col-xl px-2">
+                    <div class="product mb-5 mb-xl-0">
+                        <div class="product-image mb-2">
+                            <a href="/Single-Movies-v3" class="d-inline-block position-relative stretched-link">
+                                <img class="img-fluid" src=@Url.Content("~/assets/img/300x450/img14.jpg") alt="Image Description">
+                            </a>
+                        </div>
+                        <div class="product-meta font-size-12 mb-1">
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">2020</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Action</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Horror</a></span>
+                        </div>
+                        <div class="product-title font-weight-bold font-size-1"><a href="/Single-Movies-v3">The Strangers: Prey At Night</a></div>
+                    </div>
+                </div>
+                <div class="col-xl px-2">
+                    <div class="product mb-5 mb-xl-0">
+                        <div class="product-image mb-2">
+                            <a href="/Single-Movies-v3" class="d-inline-block position-relative stretched-link">
+                                <img class="img-fluid" src=@Url.Content("~/assets/img/300x450/img16.jpg") alt="Image Description">
+                            </a>
+                        </div>
+                        <div class="product-meta font-size-12 mb-1">
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">2020</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Action</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Adventures</a></span>
+                        </div>
+                        <div class="product-title font-weight-bold font-size-1"><a href="/Single-Movies-v3">The Maze Runner</a></div>
+                    </div>
+                </div>
+                <div class="col-xl px-2">
+                    <div class="product mb-5 mb-xl-0">
+                        <div class="product-image mb-2">
+                            <a href="/Single-Movies-v3" class="d-inline-block position-relative stretched-link">
+                                <span class="position-absolute px-2d line-height-lg bg-primary rounded content-centered-x z-index-2 mt-n2 text-white font-size-12">Featured</span>
+                                <img class="img-fluid" src=@Url.Content("~/assets/img/300x450/img18.jpg") alt="Image Description">
+                            </a>
+                        </div>
+                        <div class="product-meta font-size-12 mb-1">
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">2020</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Action</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Mystery</a></span>
+                        </div>
+                        <div class="product-title font-weight-bold font-size-1"><a href="/Single-Movies-v3">Don Of Thieves</a></div>
+                    </div>
+                </div>
+                <div class="col-xl px-2">
+                    <div class="product mb-5 mb-lg-0">
+                        <div class="product-image mb-2">
+                            <a href="/Single-Movies-v3" class="d-inline-block position-relative stretched-link">
+                                <img class="img-fluid" src=@Url.Content("~/assets/img/300x450/img4.jpg") alt="Image Description">
+                            </a>
+                        </div>
+                        <div class="product-meta font-size-12 mb-1">
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">2020</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Action</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Family</a></span>
+                        </div>
+                        <div class="product-title font-weight-bold font-size-1"><a href="/Single-Movies-v3">I Can Only Imagine</a></div>
+                    </div>
+                </div>
+                <div class="col-xl px-2">
+                    <div class="product mb-5 mb-lg-0">
+                        <div class="product-image mb-2">
+                            <a href="/Single-Movies-v3" class="d-inline-block position-relative stretched-link">
+                                <img class="img-fluid" src=@Url.Content("~/assets/img/300x450/img20.jpg") alt="Image Description">
+                            </a>
+                        </div>
+                        <div class="product-meta font-size-12 mb-1">
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">2020</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Action</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Comedy</a></span>
+                        </div>
+                        <div class="product-title font-weight-bold font-size-1"><a href="/Single-Movies-v3">The Begin Again</a></div>
+                    </div>
+                </div>
+                <div class="col-xl px-2">
+                    <div class="product mb-5 mb-md-0">
+                        <div class="product-image mb-2">
+                            <a href="/Single-Movies-v3" class="d-inline-block position-relative stretched-link">
+                                <span class="position-absolute px-2d line-height-lg bg-primary rounded content-centered-x z-index-2 mt-n2 text-white font-size-12">Featured</span>
+                                <img class="img-fluid" src=@Url.Content("~/assets/img/300x450/img22.jpg") alt="Image Description">
+                            </a>
+                        </div>
+                        <div class="product-meta font-size-12 mb-1">
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">2020</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Action</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Comedy</a></span>
+                        </div>
+                        <div class="product-title font-weight-bold font-size-1"><a href="/Single-Movies-v3">Midnight Sun</a></div>
+                    </div>
+                </div>
+                <div class="col-xl px-2">
+                    <div class="product mb-0">
+                        <div class="product-image mb-2">
+                            <a href="/Single-Movies-v3" class="d-inline-block position-relative stretched-link">
+                                <img class="img-fluid" src=@Url.Content("~/assets/img/300x450/img24.jpg") alt="Image Description">
+                            </a>
+                        </div>
+                        <div class="product-meta font-size-12 mb-1">
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">2020</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Action</a></span>
+                            <span><a href="/Single-Movies-v3" class="h-g-primary">Adventures</a></span>
+                        </div>
+                        <div class="product-title font-weight-bold font-size-1"><a href="/Single-Movies-v3">Renegades</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-1100 py-5 pb-lg-10">
+        <div class="container px-md-5 mb-2">
+            <div>
+                <div class="font-size-24 font-weight-medium font-secondary text-white mb-4">We Recommend</div>
+                <div class="section-hot-premier-show">
+                    <div class="row mx-n2">
+                        <div class="col-md-6 col-lg-3 px-2">
+                            <div class="position-relative dark mb-4 mb-lg-0">
+                                <div class="movie_poster">
+                                    <div>
+                                        <img class="img-fluid" src=@Url.Content("~/assets/img/600x900/img5.jpg") alt="Image-Description">
+                                    </div>
+                                </div>
+                                <div class="position-absolute bottom-0">
+                                    <div class="pl-3 pr-5 pb-3">
+                                        <h6 class="text-center product-title font-size-3 mb-2">
+                                            <a href="/Single-Movies-v3">I Can Only Imagine</a>
+                                        </h6>
+                                        <p class="text-white text-center font-size-1 max-h-42rem overflow-hidden">The inspiring and unknown true story behind MercyMe's beloved, chart topping song that brings ultimate hope to so many is a gripping reminder of the power of true forgiveness.</p>
+                                        <div class="pb-1">
+                                            <a href="/Single-Movies-v3" class="btn btn-outline-white py-3 w-100 btn-sm" tabindex="0">WATCH NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 px-2">
+                            <div class="position-relative dark mb-4 mb-lg-0">
+                                <div class="movie_poster">
+                                    <div>
+                                        <img class="img-fluid" src=@Url.Content("~/assets/img/600x900/img6.jpg") alt="Image-Description">
+                                    </div>
+                                </div>
+                                <div class="position-absolute bottom-0 pb-3">
+                                    <div class="pl-5 pr-6">
+                                        <h6 class="text-center product-title font-size-3 mb-2">
+                                            <a href="/Single-Movies-v3">Breath</a>
+                                        </h6>
+                                        <p class="text-white text-center font-size-1 max-h-42rem overflow-hidden">he inspiring and unknown true story behind MercyMe's beloved, chart topping song that brings ultimate hope to so many is a gripping reminder of the power of true forgiveness.</p>
+                                    </div>
+                                    <div class="pb-1 pl-3 pr-5">
+                                        <a href="/Single-Movies-v3" class="btn btn-outline-white py-3 w-100 btn-sm" tabindex="0">WATCH NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 px-2">
+                            <div class="position-relative mb-4 mb-lg-0 dark">
+                                <div class="movie_poster">
+                                    <div>
+                                        <img class="img-fluid" src=@Url.Content("~/assets/img/600x900/img7.jpg") alt="Image-Description">
+                                    </div>
+                                </div>
+                                <div class="position-absolute bottom-0">
+                                    <div class="pl-3 pr-5 pb-3">
+                                        <h6 class="text-center product-title font-size-3 mb-2 text-center">
+                                            <a href="/Single-Movies-v3">Freak Show</a>
+                                        </h6>
+                                        <p class="text-white text-center font-size-1 max-h-42rem overflow-hidden">Follows the story of teenager Billy Bloom who, despite attending an ultra conservative high school, makes the decision to run for homecoming queen</p>
+                                        <div class="pb-1">
+                                            <a href="/Single-Movies-v3" class="btn btn-outline-white py-3 w-100 btn-sm" tabindex="0">WATCH NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 px-2">
+                            <div class="position-relative dark">
+                                <div class="movie_poster">
+                                    <div>
+                                        <img class="img-fluid" src=@Url.Content("~/assets/img/600x900/img8.jpg") alt="Image-Description">
+                                    </div>
+                                </div>
+                                <div class="position-absolute bottom-0">
+                                    <div class="pl-3 pr-5 pb-3">
+                                        <h6 class="text-center product-title font-size-3 mb-2 text-center">
+                                            <a href="/Single-Movies-v3">First We Take Brooklyn</a>
+                                        </h6>
+                                        <p class="text-white text-center font-size-1 max-h-42rem overflow-hidden">A troubled woman living in an isolated community finds herself pulled between the control of her oppressive family and the allure of a secretive outsider suspected of a series of brutal murders. Guided by their families, they enter the perilous word of politics and, in the process, learn a thing or two about love.</p>
+                                        <div class="pb-1">
+                                            <a href="/Single-Movies-v3" class="btn btn-outline-white py-3 w-100 btn-sm" tabindex="0">WATCH NOW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

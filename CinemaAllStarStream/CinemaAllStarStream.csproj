@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\img\204x120\" />
+    <Folder Include="wwwroot\assets\img\174x260\" />
+    <Folder Include="wwwroot\assets\img\206x117\" />
+    <Folder Include="wwwroot\assets\img\222x126\" />
+    <Folder Include="wwwroot\assets\img\261x148\" />
+    <Folder Include="wwwroot\assets\vendor\font-awesome\webfonts\" />
+  </ItemGroup>
+
+</Project>
